@@ -1,6 +1,5 @@
 import dbus, dbus.mainloop.glib, sys
 from gi.repository import GLib
-import keyboard
 
 def on_property_changed(interface, changed, invalidated):
     if interface != 'org.bluez.MediaPlayer1':
